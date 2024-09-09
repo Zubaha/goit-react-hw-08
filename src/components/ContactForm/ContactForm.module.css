@@ -1,0 +1,30 @@
+.form {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.submitBtn {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(134, 122, 163, 0.4);
+}
+
+.numberLabel,
+.nameLabel {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  font-size: 20px;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+}
