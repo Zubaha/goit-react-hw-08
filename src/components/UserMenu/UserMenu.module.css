@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.welcomeText {
+  color: white;
+}
+
+.button {
+  background-color: white;
+  color: var(--primary-color);
+  padding: 8px 16px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition);
+}
+
+.button:hover {
+  background-color: lightgray;
+}
